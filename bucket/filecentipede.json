@@ -51,7 +51,8 @@
     "lib\\fileu_win32.conf"
   ],
   "checkver": {
-    "url": "https://github.com/filecxx/FileCentipede/releases/latest",
+    "url": "https://api.github.com/repositories/467157951/releases/latest",
+    "jsonpath": "$..browser_download_url",
     "regex": "v(?<tag>[\\d\\w.]+)/filecxx_([\\d.]+)_win_x64.zip"
   },
   "autoupdate": {
